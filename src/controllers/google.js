@@ -22,6 +22,7 @@ const googleAuthSuccess = async (req, res) => {
     }
 
     let user = await User.findOne({ id: req.user.id });
+    console.log(req.user);
 
     if (!user) {
         const data = {

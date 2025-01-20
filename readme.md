@@ -72,6 +72,12 @@ git clone https://github.com/yourusername/BlogNest.git
 cd BlogNest
 ```
 
+### Create a Temporary Directory:
+
+```bash
+mkdir temp
+```
+
 ### Install Dependencies:
 
 ```bash
